@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<questionsList>
+    <question>
+        <title>Which class implements wait() and notify()</title>
+		<answer0>Runnable</answer0>
+		<answer1>Thread</answer1>
+		<answer2>Class</answer2>
+		<answer3>Object</answer3>
+		<correctAnswerIndex>3</correctAnswerIndex>
+    </question>
+    <question>
+        <title>Which of the following will not directly cause a thread to stop?</title> 
+		<answer0>wait()</answer0>
+		<answer1>notify()</answer1>
+		<answer2>InputStream access</answer2>
+		<answer3>sleep()</answer3>
+		<correctAnswerIndex>1</correctAnswerIndex>
+	</question>
+    <question>
+        <title>Which of the following is false about String?</title> 
+		<answer0>String is immutable</answer0>
+		<answer1>String can be created using new operator</answer1>
+		<answer2>String is a primary data type</answer2>
+		<answer3>None of the above</answer3>
+		<correctAnswerIndex>2</correctAnswerIndex>
+    </question>
+    <question>
+        <title>When does static binding occur?</title> 
+		<answer0>Load time</answer0>
+		<answer1>Compile time</answer1>
+		<answer2>Run time</answer2>
+		<answer3>None of the above</answer3>
+		<correctAnswerIndex>1</correctAnswerIndex>
+    </question>
+    <question>
+        <title>What is a marker interface?</title> 
+		<answer1>Marker interface is an interface with no method</answer1>
+		<answer2>Marker interface is an interface with single method, mark().</answer2>
+		<answer3>Marker interface is an interface with single method, marker().</answer3>
+		<answer4>None of the above</answer4>
+		<correctAnswerIndex>0</correctAnswerIndex>
+    </question>
+    <question>
+        <title>Which design pattern allows you to decouple the business logic?</title> 
+		<answer0>Model-View-Controller</answer0>
+		<answer1>Bussiness Delegate</answer1>
+		<answer2>Bimodal Data Access</answer2>
+		<answer3>Value Object</answer3>
+		<correctAnswerIndex>0</correctAnswerIndex>
+    </question>
+    <question>
+        <title>Which method in the HttpServlet class services the HTTP POST request? </title> 
+		<answer0>DoPOST(ServletRequest, ServletResponse)</answer0>
+		<answer1>DoPost(ServletRequest, ServletResponse)</answer1>
+		<answer2>DoPost(HttpServletRequest, HttpServletResponse)</answer2>
+		<answer3>ServicePost(HttpServletRequest, HttpServletResponse)</answer3>
+		<correctAnswerIndex>2</correctAnswerIndex>
+    </question>
+</questionsList>

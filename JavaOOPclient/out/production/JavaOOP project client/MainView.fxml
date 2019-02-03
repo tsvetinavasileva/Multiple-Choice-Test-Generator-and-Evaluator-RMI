@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="336.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Pagination fx:id="pagination" layoutX="2.0" layoutY="4.0" maxPageIndicatorCount="5" pageCount="5" prefHeight="307.0" prefWidth="581.0" />
+      <Label fx:id="studentName" layoutX="358.0" layoutY="71.0" text="student name:" />
+      <TextField fx:id="studentNameText" layoutX="358.0" layoutY="92.0" />
+      <Label fx:id="minutes" layoutX="15.0" layoutY="211.0" prefHeight="16.0" prefWidth="17.0" textFill="#354aeb" />
+      <Button fx:id="submitButton" layoutX="358.0" layoutY="135.0" mnemonicParsing="false" onAction="#listenForSubmit" text="Submit" />
+      <Label fx:id="colon" layoutX="33.0" layoutY="211.0" text=":" />
+      <Label fx:id="seconds" layoutX="38.0" layoutY="211.0" prefHeight="16.0" prefWidth="17.0" textFill="#354aeb"/>
+      <Label fx:id="remainingTime" layoutX="9.0" layoutY="189.0" text="Remaining time:" />
+   </children>
+</AnchorPane>

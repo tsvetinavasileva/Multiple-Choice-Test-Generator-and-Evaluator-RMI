@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="97.375" y="691.0">StudentServerInterfaceImpl</node>
+    <node x="438.9375" y="1061.0">RegisterWithRMIServer</node>
+    <node x="368.0" y="490.0">StudentServerInterface</node>
+    <node x="0.0" y="525.5">QuestionsList</node>
+    <node x="200.0" y="0.0">question.Question</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StudentServerInterfaceImpl" target="StudentServerInterface">
+      <point x="165.375" y="-160.0" />
+      <point x="483.25" y="666.0" />
+      <point x="478.25" y="666.0" />
+      <point x="-110.25" y="75.5" />
+    </edge>
+    <edge source="RegisterWithRMIServer" target="StudentServerInterfaceImpl">
+      <point x="-52.0" y="-27.5" />
+      <point x="490.9375" y="1036.0" />
+      <point x="317.875" y="1036.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="StudentServerInterfaceImpl" target="QuestionsList">
+      <point x="-165.375" y="-160.0" />
+      <point x="152.5" y="666.0" />
+      <point x="168.0" y="666.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="StudentServerInterfaceImpl" target="question.Question">
+      <point x="-55.125" y="-160.0" />
+      <point x="262.75" y="666.0" />
+      <point x="346.5" y="666.0" />
+      <point x="0.0" y="220.0" />
+    </edge>
+    <edge source="StudentServerInterface" target="question.Question">
+      <point x="0.0" y="-75.5" />
+      <point x="588.5" y="465.0" />
+      <point x="463.7" y="465.0" />
+      <point x="117.19999999999999" y="220.0" />
+    </edge>
+    <edge source="RegisterWithRMIServer" target="StudentServerInterface">
+      <point x="51.999999999999986" y="-27.5" />
+      <point x="594.9375" y="1036.0" />
+      <point x="698.75" y="1036.0" />
+      <point x="110.25" y="75.5" />
+    </edge>
+    <edge source="QuestionsList" target="question.Question">
+      <point x="84.0" y="-40.0" />
+      <point x="252.0" y="465.0" />
+      <point x="287.9" y="465.0" />
+      <point x="-58.60000000000002" y="220.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.789612676056338" x="404.5" y="568.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

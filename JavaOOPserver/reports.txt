@@ -1,0 +1,42 @@
+student name: Tsveti
+date and time: Sat Feb 02 12:41:32 EET 2019
+bank: Bank1
+Which of the following is false about String?
+String is immutable
+String can be created using new operator
+String is a primary data type
+None of the above
+ The correct answer is: String is a primary data type
+ The given answer is: String is immutable
+ The given answer is incorrect. 0/1
+
+Which class implements wait() and notify()
+Runnable
+Thread
+Class
+Object
+ The correct answer is: Object
+ The given answer is: Object
+ The given answer is correct. 1/1
+
+Which of the following will not directly cause a thread to stop?
+wait()
+notify()
+InputStream access
+sleep()
+ The correct answer is: notify()
+ The given answer is: notify()
+ The given answer is correct. 1/1
+
+When does static binding occur?
+Load time
+Compile time
+Run time
+None of the above
+ The correct answer is: Compile time
+ The given answer is: Compile time
+ The given answer is correct. 1/1
+
+Total score: 3 / 4
+Grade: 5
+
